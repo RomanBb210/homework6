@@ -1,0 +1,44 @@
+.advanced {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.advanced .container {
+    display: flex;
+    height: 248px;
+
+}
+
+.advanced-list {
+    display: flex;
+    gap: 30px;
+}
+
+.advanced-item {
+    width: 270px;
+}
+
+.advanced-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--team-background-color);
+    border-radius: 4px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.advanced-title {
+    margin-bottom: 10px;
+
+    color: var(--title-text-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.advanced-text {
+    color: var(--primary-text-color);
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+}
