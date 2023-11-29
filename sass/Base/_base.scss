@@ -1,26 +1,15 @@
-:root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --hero-button-color: #188ce8;
-    --team-background-color: #F5F4FA;
-    --footer-color: #2F303A;
-    --color-white: #FFFFFF;
-    --color-black: #000000;
-    --footer-contact-color: rgba(255, 255, 255, 0.60);
-    --link-ikon-color: #AFB1B8;
-}
-
 body {
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--primary-text-color);
+    width: 1600px;
+
+    @include centeredMargin;
+
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    background-color: var(--color-white);
     line-height: normal;
-    width: 1600px;
+
+    color: $primary-text-color;
+    background-color: $color-white;
 }
 
 .visually-hidden {
@@ -55,10 +44,11 @@ ul {
 
 .container {
     width: 1200px;
+
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+
+    @include centeredMargin;
     /* outline: 1px solid tomato; */
 }
 
